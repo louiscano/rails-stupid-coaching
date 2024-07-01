@@ -1,0 +1,14 @@
+<div class="p-5">
+<h1>Stupid Coaching</h1>
+<div class="blockquote border-start border-5 p-3 col-3">
+<p><%= @question %></p>
+<p class="blockquote-footer fw-lighter fst-italic">You</p>
+</div>
+<div class="blockquote border-start border-5 p-3 bg-warning bg-opacity-10 col-3">
+<p><%= @answer %></p>
+<p class="blockquote-footer fw-lighter fst-italic">Your coach</p>
+</div>
+<div>
+<%= link_to "Ask a new question", ask_path %>
+</div>
+</div>
